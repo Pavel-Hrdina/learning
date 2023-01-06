@@ -1,24 +1,24 @@
 // node_modules/vitepress/dist/client/theme-default/index.js
-import "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
-import "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
-import "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/base.css";
-import "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
-import "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
-import "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
-import "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
-import "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
-import "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
-import VPBadge from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
-import Layout from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/Layout.vue";
-import NotFound from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/NotFound.vue";
-import { default as default2 } from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
-import { default as default3 } from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
-import { default as default4 } from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
-import { default as default5 } from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
-import { default as default6 } from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
-import { default as default7 } from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
-import { default as default8 } from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
-import { default as default9 } from "D:/Projects/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
+import "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/fonts.css";
+import "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/vars.css";
+import "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/base.css";
+import "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/utils.css";
+import "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/components/custom-block.css";
+import "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code.css";
+import "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-code-group.css";
+import "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-doc.css";
+import "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/styles/components/vp-sponsor.css";
+import VPBadge from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPBadge.vue";
+import Layout from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/Layout.vue";
+import NotFound from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/NotFound.vue";
+import { default as default2 } from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeHero.vue";
+import { default as default3 } from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeFeatures.vue";
+import { default as default4 } from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPHomeSponsors.vue";
+import { default as default5 } from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPDocAsideSponsors.vue";
+import { default as default6 } from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPage.vue";
+import { default as default7 } from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageTitle.vue";
+import { default as default8 } from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamPageSection.vue";
+import { default as default9 } from "/home/pavel/code/learning/go_docs/node_modules/vitepress/dist/client/theme-default/components/VPTeamMembers.vue";
 var theme = {
   Layout,
   NotFound,
