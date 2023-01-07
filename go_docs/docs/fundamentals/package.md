@@ -1,4 +1,4 @@
-# Go packages
+# Go package
 
 Go needs a `go.mod` file recognize that the directory contains a Go script/s.
 
@@ -6,14 +6,10 @@ Go needs a `go.mod` file recognize that the directory contains a Go script/s.
 
 [[toc]]
 
-## Managing packages
+## Managing packages ### Creating a package To create a package type
 
-### Creating a package
+```bash go mod init example/name
 
-To create a package type:
-
-```bash
-go mod init example/name
 ```
 
 Go creates a file in the current directory named: `go.mod` witch contains:
@@ -49,3 +45,39 @@ func main() {
 ```
 
 ### Importing packages from another file
+
+To import form local go package is as simple.
+If it is a local module (that is not in a repository), we
+need to link it to the current module, in order to use it by
+Importing it
+
+The project looks like this:
+
+```sh
+<root>/
+|--greetings/
+  --go.mod
+  --greeting.go
+|--example/
+  --go.mod
+  --example.go
+```
+
+To import the `example.com/greetings` module into the `example.com/example` we
+run the following command in the example directory:
+
+```sh
+go mod edit -replace example.com/greetings=../greetings
+```
+
+Now it can be used in the example module like so:
+
+```go
+//...
+import (
+  ...
+
+  "example.com/greetings"
+)
+//...
+```
