@@ -23,10 +23,6 @@ module.exports = {
             text: "Why Go",
             link: "/fundamentals/what-is-go",
           },
-          {
-            text: "Packages",
-            link: "/fundamentals/package",
-          },
         ],
       },
     ],
