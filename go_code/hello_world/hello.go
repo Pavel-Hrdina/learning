@@ -2,12 +2,15 @@ package main
 
 import "fmt"
 
-const holly_hello = "Hello, "
+const HollyHello = "Hello, "
 
-func hello(name string) string {
-	return holly_hello + name
+func Hello(name string) string {
+	if name == "" {
+		return HollyHello + "World!"
+	}
+	return HollyHello + name
 }
 
 func main() {
-	fmt.Printf(hello("World"))
+	fmt.Println(Hello(""))
 }
