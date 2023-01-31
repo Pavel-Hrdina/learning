@@ -2,7 +2,9 @@ package main
 
 import "fmt"
 
-const HollyHello = "Hello, "
+const spanish = "Spanish"
+const EnglishHelloPrefix = "Hello, "
+const SpanishHelloPrefix = "Hola, "
 
 func Hello(name string) string {
 	if name == "" {
