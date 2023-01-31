@@ -6,9 +6,9 @@ const spanish = "Spanish"
 const EnglishHelloPrefix = "Hello, "
 const SpanishHelloPrefix = "Hola, "
 
-func Hello(name string) string {
+func Hello(name string, language string) string {
 	if name == "" {
-		return HollyHello + "World!"
+		return EnglishHelloPrefix + "World!"
 	}
 	return HollyHello + name
 }
