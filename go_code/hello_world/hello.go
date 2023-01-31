@@ -8,9 +8,17 @@ const SpanishHelloPrefix = "Hola, "
 
 func Hello(name string, language string) string {
 	if name == "" {
-		return EnglishHelloPrefix + "World!"
+		name = "World!"
 	}
-	return HollyHello + name
+
+	prefix := EnglishHelloPrefix
+
+	switch language {
+	case spanish:
+		prefix = SpanishHelloPrefix
+	}
+
+	return prefix + name
 }
 
 func main() {
